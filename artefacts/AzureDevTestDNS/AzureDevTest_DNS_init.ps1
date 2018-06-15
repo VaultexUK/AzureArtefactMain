@@ -8,7 +8,7 @@ Script to create report of services not running.
 Use this command to configure DNS for Azure VMs so that they can connect to the Vaultex Dev domains.
 AzureDevTest_DNS_init.ps1
 $DNSServers should be one or two IP addresses.
-$suffixsearchlaist should be one or more suffixes to search, including the domain FQDN that the VM is beign joined to.
+$suffixsearchlaist should be one or more suffixes to search, including the domain FQDN that the VM is being joined to.
 $suffix should be the domain FQDN the the VM is being joined to.
 
 #>
