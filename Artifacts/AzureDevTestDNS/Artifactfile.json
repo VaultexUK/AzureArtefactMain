@@ -28,6 +28,6 @@
     },
   },
   "runCommand": {
-    "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./artifact.ps1', ' -DNSservers ''', parameters('DNSservers'), ''' -suffixsearchlist ''', parameters('suffixsearchlist'), ''' -suffix ', parameters('suffix'), '''\"')]"
+    "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./AzureDevTest_DNS_init.ps1', ' -DNSservers ''', parameters('DNSservers'), ''' -suffixsearchlist ''', parameters('suffixsearchlist'), ''' -suffix ', parameters('suffix'), '''\"')]"
   },
 }
