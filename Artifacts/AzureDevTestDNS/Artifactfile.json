@@ -3,7 +3,7 @@
   "title": "Azure DevTest Labs DNS initialisation",
   "description": "Configures DNS so that a VM may join a Vaultex domain",
   "publisher": "Vaultex UK Ltd",
-  "tags": ["Windows","Vaultex","DNS"],
+  "tags": ["Vaultex"],
   "iconUri": "https://avatars3.githubusercontent.com/u/40204130?s=200&v=4",
   "targetOsType": "Windows",
   "parameters": {
